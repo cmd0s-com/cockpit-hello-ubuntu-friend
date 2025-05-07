@@ -1,13 +1,14 @@
 
 {
     "version": 0,
-    "require": {
+    "requires": {
         "cockpit": "224"
     },
-    "tools": {
+    "menu": {
         "hello-ubuntu": {
             "label": "Hello Ubuntu",
-            "path": "index.html"
+            "path": "index.html",
+            "icon": "ubuntu"
         }
     },
     "content-security-policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval'"
