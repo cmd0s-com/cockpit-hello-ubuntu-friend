@@ -1,0 +1,14 @@
+
+{
+    "version": 0,
+    "require": {
+        "cockpit": "224"
+    },
+    "tools": {
+        "hello-ubuntu": {
+            "label": "Hello Ubuntu",
+            "path": "index.html"
+        }
+    },
+    "content-security-policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval'"
+}
